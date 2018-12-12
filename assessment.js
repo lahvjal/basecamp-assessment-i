@@ -23,12 +23,12 @@ var trueFaveNum = faveNum;
 
 // CODE HERE
 var notHakeem = myName;
-if (myName!=='Hakeem Olajuwon'){
+if (notHakeem!=='Hakeem Olajuwon'){
   return 'You are not Hakeem Olajuwon'
-}else if (myName==='Hakeem Olajuwon'){
-  if(myName==='Karl Malone'){
+}else if (notHakeem==='Hakeem Olajuwon'){
+  if(notHakeem==='Karl Malone'){
     return 'Hello Karl Malone'
-  }else if(myName==='Hakeem Olajuwon'){
+  }else if(notHakeem==='Hakeem Olajuwon'){
     return 'Hello Hakeem'
   }
 };
@@ -72,3 +72,5 @@ function sum(num1){
 function greeter(name, number){
   return 'Hi! I am '+name+' and I am '+number+' years old';
 };
+
+console.log(myName);
