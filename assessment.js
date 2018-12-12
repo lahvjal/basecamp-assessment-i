@@ -23,15 +23,18 @@ var trueFaveNum = faveNum;
 
 // CODE HERE
 var notHakeem = myName;
-if (notHakeem!=='Hakeem Olajuwon'){
-  return 'You are not Hakeem Olajuwon'
-}else if (notHakeem==='Hakeem Olajuwon'){
-  if(notHakeem==='Karl Malone'){
-    return 'Hello Karl Malone'
-  }else if(notHakeem==='Hakeem Olajuwon'){
-    return 'Hello Hakeem'
+function isDatHakeem(name){
+  if (name!=='Hakeem Olajuwon'){
+    return 'You are not Hakeem Olajuwon'
+  }else if (name==='Hakeem Olajuwon'){
+    if(name==='Karl Malone'){
+      return 'Hello Karl Malone'
+    }else if(name==='Hakeem Olajuwon'){
+      return 'Hello Hakeem'
+    }
   }
-};
+}
+isDatHakeem(notHakeem);
 // #7 Create an if statement that checks the age variable below. If age is greater than 16, then set canDrive to true otherwise set canDrive to false. The canDrive variable will be set by the unit test so do not adjust it.
 var age = 18;
 var canDrive;
