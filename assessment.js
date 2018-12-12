@@ -20,6 +20,7 @@ var me = "My name is "+myName+" and my favorite number is "+faveNum;
 // CODE HERE
 var trueFaveNum = faveNum;
 function faveNumTest(numm){
+  console.log(numm === faveNum);
   return numm === faveNum;
 }
 faveNumTest(trueFaveNum);
