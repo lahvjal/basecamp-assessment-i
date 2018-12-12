@@ -19,6 +19,10 @@ var me = "My name is "+myName+" and my favorite number is "+faveNum;
 
 // CODE HERE
 var trueFaveNum = faveNum;
+function faveNumTest(numm){
+  return numm === faveNum;
+}
+faveNumTest(trueFaveNum);
 // #6 Create a new variable called notHakeem. Using the previously created myName variable, test that your name DOES NOT equal the string 'Hakeem Olajuwon'. If your name does happen to be Hakeem Olajuwon, test against 'Karl Malone'
 
 // CODE HERE
