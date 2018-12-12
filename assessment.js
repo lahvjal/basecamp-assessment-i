@@ -4,7 +4,7 @@ var myName = 'Madigan';
 
 // #2 create a variable called 'faveNum' and assign it to your favorite number
 
-var faveNum = "5";
+var faveNum = 5;
 
 // #3 create a variable called 'lovesCode' and set it to true
 
@@ -76,4 +76,3 @@ function greeter(name, number){
   return 'Hi! I am '+name+' and I am '+number+' years old';
 };
 
-console.log(myName);
